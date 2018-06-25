@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Featured = ({match}) => {
-  let name = match.params.name;
+  let name = `${match.params.fname} ${match.params.lname}`;
   let topic = match.params.topic;
   return (
     <div className="main-content">
